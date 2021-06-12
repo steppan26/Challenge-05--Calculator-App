@@ -5,9 +5,11 @@ import Calculator from './Calculator';
 
 function App() {
   return (
-    <div className="App">
-      <Header />
-      <Calculator />
+    <div className="AppContainer">
+      <div className="App Theme1">
+        <Header />
+        <Calculator />
+      </div>
     </div>
   );
 }

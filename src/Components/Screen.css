@@ -1,0 +1,12 @@
+.screen{
+    
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    background-color: var(--clr-bg-toggle-keypad);
+    font-size: 1em;
+    height: 5em;
+    margin-bottom: 2em;
+    padding: 2em;
+}
