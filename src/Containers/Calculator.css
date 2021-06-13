@@ -1,6 +1,15 @@
 .buttonsContainer{
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(5, 1fr);
-    grid-gap: 2em;
+    grid-template-columns: repeat(4, 65px);
+    grid-template-rows: repeat(5, 65px);
+    grid-gap: 0.85em;
+    padding: 1.5em;
+    border-radius: 0.5em;
+    background-color: var(--clr-bg-toggle-keypad);
+    grid-template-areas:
+    "seven eight nine del"
+    "four five six plus"
+    "one two three minus"
+    "dot zero divide multiply"
+    "reset reset equals equals";
 }

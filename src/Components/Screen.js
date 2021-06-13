@@ -3,7 +3,10 @@ import './Screen.css'
 
 const Screen = () => {
     return(
-        <div className="screen">
+        <div className="screen"
+        style={{
+            color:"var(--clr-text-secondary)"
+        }}>
             <h2>399,981</h2>
         </div>
     );
