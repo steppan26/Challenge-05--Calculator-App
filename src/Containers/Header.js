@@ -3,14 +3,14 @@ import './Header.css'
 import Theme from '../Components/Theme'
 import Screen from '../Components/Screen'
 
-const Header = () => {
+const Header = ( {activeTheme} ) => {
     return(
         <div className="topSection">
             <div className="header">
                 <h1 className="title">calc</h1>
-                <Theme />
+                <Theme activeTheme={activeTheme} />
             </div>
-            <Screen />
+            <Screen/>
         </div>
     );
 }

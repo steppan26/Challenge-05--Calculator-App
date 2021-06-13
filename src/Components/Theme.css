@@ -1,0 +1,42 @@
+.themeWrapper{
+    display: flex;
+    font-size: 0.7rem;
+    align-items: flex-end;
+}
+
+.toggleWrapper{
+    display: grid;
+    grid-template-columns: repeat(3, 25px);
+    grid-template-rows: 1fr 1fr;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-left: 2em;
+    font-size: 1rem;
+}
+
+.themeToggle{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    align-items: center;
+    justify-content: center;
+    width: 75px;
+    height: 25px;
+    padding: 5px;
+    background-color: var(--clr-bg-toggle-keypad);
+    border-radius: 1em;
+    grid-template-areas:
+    "Theme1 Theme2 Theme3";
+}
+
+.themeSelector{
+    z-index: 2;
+    width: 15px;
+    height: 100%;
+    border-radius: 50%;
+    justify-self: center;
+    background-color: var(--clr-keys-equals-bg);
+
+}
