@@ -5,12 +5,12 @@ import Screen from '../Components/Screen'
 
 const Header = ( {activeTheme} ) => {
     return(
-        <div className="topSection">
+        <div className="topSection" id="topSection">
             <div className="header">
                 <h1 className="title">calc</h1>
                 <Theme activeTheme={activeTheme} />
             </div>
-            <Screen/>
+            <Screen activeTheme={activeTheme} />
         </div>
     );
 }

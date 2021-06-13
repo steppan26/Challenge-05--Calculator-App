@@ -5,7 +5,7 @@ const Theme = ({activeTheme}) => {
     return(
         <div className="themeWrapper">
             <h3>THEME</h3>
-            <div className="toggleWrapper">
+            <div className="toggleWrapper" id="toggleWrapper">
                 <h6>1</h6>
                 <h6>2</h6>
                 <h6>3</h6>

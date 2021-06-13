@@ -16,6 +16,7 @@ import Calculator from './Calculator';
 
    componentDidMount(){
     this.createThemeEventListener();
+    this.setHeadingFontColor();
    }
 
    createThemeEventListener = () => {
@@ -28,7 +29,17 @@ import Calculator from './Calculator';
         activeTheme = activeTheme + 1
       }
       this.setState({activeTheme: activeTheme})
+      this.setHeadingFontColor();
     })
+   }
+
+   setHeadingFontColor = () =>{
+    const screenText = document.getElementById("topSection")
+    if(this.state.theme[this.state.activeTheme] === "Theme1"){
+      screenText.style.color = "var(--clr-text-secondary)"
+    } else {
+      screenText.style.color = "var(--clr-text-primary)"
+    }
    }
 
 

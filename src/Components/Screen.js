@@ -1,12 +1,9 @@
 import React from 'react'
 import './Screen.css'
 
-const Screen = () => {
+const Screen = ({activeTheme}) => {
     return(
-        <div className="screen"
-        style={{
-            color:"var(--clr-text-secondary)"
-        }}>
+        <div className="screen" id="screenText">
             <h2>399,981</h2>
         </div>
     );
