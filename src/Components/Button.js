@@ -1,12 +1,13 @@
 import React from 'react'
 import './Button.css'
 
-const Button = ( { text, name, fontSize, bgColor, fontColor, shadowColor } ) => {
+const Button = ( { text, gridName, fontSize, bgColor, fontColor, shadowColor, className } ) => {
     const shadow = "0 -0.15em 0 0px " + shadowColor + " inset";
+    let buttonClass = "btnStyle " + className;
     return(
-        <div className="btn"
+        <div className={buttonClass}
         style={{
-            gridArea:`${name}`,
+            gridArea:`${gridName}`,
             fontSize:`${fontSize}`,
             backgroundColor:`${bgColor}`,
             boxShadow:shadow,

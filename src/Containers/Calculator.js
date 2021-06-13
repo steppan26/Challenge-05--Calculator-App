@@ -5,24 +5,24 @@ import Button from '../Components/Button'
 const Calculator = () => {
     return(
         <div className="buttonsContainer">
-            <Button text="7" name="seven" fontSize="1.6em" fontColor="var(--clr-text-primary)" shadowColor="var(--clr-keys-primary-shadow)"/>
-            <Button text="8" name="eight" fontSize="1.6em"  fontColor="var(--clr-text-primary)"shadowColor="var(--clr-keys-primary-shadow)"/>
-            <Button text="9" name="nine" fontSize="1.6m"  fontColor="var(--clr-text-primary)"shadowColor="var(--clr-keys-primary-shadow)"/>
-            <Button text="DEL" name="del" fontSize="1.2em" fontColor="var(--clr-text-secondary)" bgColor="var(--clr-keys-reset-bg)" shadowColor="var(--clr-keys-reset-shadow)"/>
-            <Button text="4" name="four" fontSize="1.86m"  fontColor="var(--clr-text-primary)"shadowColor="var(--clr-keys-primary-shadow)"/>
-            <Button text="5" name="five" fontSize="1.6em"  fontColor="var(--clr-text-primary)"shadowColor="var(--clr-keys-primary-shadow)"/>
-            <Button text="6" name="six" fontSize="1.6em"  fontColor="var(--clr-text-primary)"shadowColor="var(--clr-keys-primary-shadow)"/>
-            <Button text="+" name="plus" fontSize="1.6em"  fontColor="var(--clr-text-primary)"shadowColor="var(--clr-keys-primary-shadow)"/>
-            <Button text="1" name="one" fontSize="1.6em"  fontColor="var(--clr-text-primary)"shadowColor="var(--clr-keys-primary-shadow)"/>
-            <Button text="2" name="two" fontSize="1.6em"  fontColor="var(--clr-text-primary)"shadowColor="var(--clr-keys-primary-shadow)"/>
-            <Button text="3" name="three" fontSize="1.6em"  fontColor="var(--clr-text-primary)"shadowColor="var(--clr-keys-primary-shadow)"/>
-            <Button text="-" name="minus" fontSize="1.6em"  fontColor="var(--clr-text-primary)"shadowColor="var(--clr-keys-primary-shadow)"/>
-            <Button text="." name="dot" fontSize="1.6em"  fontColor="var(--clr-text-primary)"shadowColor="var(--clr-keys-primary-shadow)"/>
-            <Button text="0" name="zero" fontSize="1.6em"  fontColor="var(--clr-text-primary)"shadowColor="var(--clr-keys-primary-shadow)"/>
-            <Button text="/" name="divide" fontSize="1.6em"  fontColor="var(--clr-text-primary)"shadowColor="var(--clr-keys-primary-shadow)"/>
-            <Button text="x" name="multiply" fontSize="1.6em"  fontColor="var(--clr-text-primary)"shadowColor="var(--clr-keys-primary-shadow)"/>
-            <Button text="RESET" name="reset" fontSize="1.2em" fontColor="var(--clr-text-secondary)" bgColor="var(--clr-keys-reset-bg)" shadowColor="var(--clr-keys-reset-shadow)"/>
-            <Button text="=" name="equals" fontSize="1.6em" fontColor="var(--clr-text-secondary)" bgColor="var(--clr-keys-equals-bg)" shadowColor="var(--clr-keys-equals-shadow)"/>
+            <Button className="btnNumber" text="7" gridName="seven" fontSize="1.6em" fontColor="var(--clr-text-primary)" shadowColor="var(--clr-keys-primary-shadow)"/>
+            <Button className="btnNumber" text="8" gridName="eight" fontSize="1.6em"  fontColor="var(--clr-text-primary)"shadowColor="var(--clr-keys-primary-shadow)"/>
+            <Button className="btnNumber" text="9" gridName="nine" fontSize="1.6m"  fontColor="var(--clr-text-primary)"shadowColor="var(--clr-keys-primary-shadow)"/>
+            <Button className="btnDelete" text="DEL" gridName="del" fontSize="1.2em" fontColor="var(--clr-text-secondary)" bgColor="var(--clr-keys-reset-bg)" shadowColor="var(--clr-keys-reset-shadow)"/>
+            <Button className="btnNumber" text="4" gridName="four" fontSize="1.86m"  fontColor="var(--clr-text-primary)"shadowColor="var(--clr-keys-primary-shadow)"/>
+            <Button className="btnNumber" text="5" gridName="five" fontSize="1.6em"  fontColor="var(--clr-text-primary)"shadowColor="var(--clr-keys-primary-shadow)"/>
+            <Button className="btnNumber" text="6" gridName="six" fontSize="1.6em"  fontColor="var(--clr-text-primary)"shadowColor="var(--clr-keys-primary-shadow)"/>
+            <Button className="btnModifier" text="+" gridName="plus" fontSize="1.6em"  fontColor="var(--clr-text-primary)"shadowColor="var(--clr-keys-primary-shadow)"/>
+            <Button className="btnNumber" text="1" gridName="one" fontSize="1.6em"  fontColor="var(--clr-text-primary)"shadowColor="var(--clr-keys-primary-shadow)"/>
+            <Button className="btnNumber" text="2" gridName="two" fontSize="1.6em"  fontColor="var(--clr-text-primary)"shadowColor="var(--clr-keys-primary-shadow)"/>
+            <Button className="btnNumber" text="3" gridName="three" fontSize="1.6em"  fontColor="var(--clr-text-primary)"shadowColor="var(--clr-keys-primary-shadow)"/>
+            <Button className="btnModifier" text="-" gridName="minus" fontSize="1.6em"  fontColor="var(--clr-text-primary)"shadowColor="var(--clr-keys-primary-shadow)"/>
+            <Button className="btnNumber" text="." gridName="dot" fontSize="1.6em"  fontColor="var(--clr-text-primary)"shadowColor="var(--clr-keys-primary-shadow)"/>
+            <Button className="btnNumber" text="0" gridName="zero" fontSize="1.6em"  fontColor="var(--clr-text-primary)"shadowColor="var(--clr-keys-primary-shadow)"/>
+            <Button className="btnModifier" text="/" gridName="divide" fontSize="1.6em"  fontColor="var(--clr-text-primary)"shadowColor="var(--clr-keys-primary-shadow)"/>
+            <Button className="btnModifier" text="x" gridName="multiply" fontSize="1.6em"  fontColor="var(--clr-text-primary)"shadowColor="var(--clr-keys-primary-shadow)"/>
+            <Button className="btnReset" text="RESET" gridName="reset" fontSize="1.2em" fontColor="var(--clr-text-secondary)" bgColor="var(--clr-keys-reset-bg)" shadowColor="var(--clr-keys-reset-shadow)"/>
+            <Button className="btnSubmit" text="=" gridName="equals" fontSize="1.6em" fontColor="var(--clr-text-secondary)" bgColor="var(--clr-keys-equals-bg)" shadowColor="var(--clr-keys-equals-shadow)"/>
         </div>
     );
 }

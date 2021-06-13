@@ -25,6 +25,7 @@
     width: 75px;
     height: 25px;
     padding: 5px;
+    cursor: pointer;
     background-color: var(--clr-bg-toggle-keypad);
     border-radius: 1em;
     grid-template-areas:
