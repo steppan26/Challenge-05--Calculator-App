@@ -318,10 +318,10 @@ import Calculator from './Calculator';
     console.log("screenText", this.state.screenText)
     console.log("activeModifier", this.state.activeModifier)
     console.log("storedValue", this.state.storedValue)
-    let themeClassName = "App " + this.state.theme[this.state.activeTheme];
+    let themeClassName = "AppContainer " + this.state.theme[this.state.activeTheme];
     return (
-      <div className="AppContainer">
-        <div className={themeClassName}>
+      <div className={themeClassName}>
+        <div className="App">
           <Header activeTheme={this.state.theme[this.state.activeTheme]} screenText={this.state.screenText}/>
           <Calculator />
         </div>
