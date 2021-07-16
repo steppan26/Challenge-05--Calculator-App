@@ -6,13 +6,13 @@ const Button = ( { text, gridName, fontSize, bgColor, fontColor, shadowColor } )
     console.log(text, gridName, fontSize, bgColor, fontColor, shadowColor)
     return(
         <div className="btn"
-            // style={{
-            //     gridArea:gridName,
-            //     fontSize:fontSize,
-            //     backgroundColor:bgColor,
-            //     boxShadow:shadow,
-            //     color:fontColor
-            //     }}
+            style={{
+                gridArea:gridName,
+                fontSize:fontSize,
+                backgroundColor:bgColor,
+                boxShadow:shadow,
+                color:fontColor
+                }}
             >
             <p>{text}</p>
         </div>
