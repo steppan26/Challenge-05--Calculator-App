@@ -85,3 +85,13 @@
   font-size: 1rem;
   width: auto;
 }
+
+.btn{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.25em;
+  background-color: var(--clr-keys-primary-bg);
+  font-size: 1.8em;
+  cursor: pointer;
+}
