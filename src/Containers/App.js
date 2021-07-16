@@ -19,11 +19,8 @@ import Calculator from './Calculator';
 
    componentDidMount(){
     this.createThemeToggler()
-    console.log("ThemeToggler has been created")
     this.setHeadingFontColor()
-    console.log("HeadingFontColor has been set")
     this.createButtons()
-    console.log("btns have been created")
    }
 
    createButtons = () =>{
@@ -317,9 +314,7 @@ import Calculator from './Calculator';
   }
 
   render(){
-    console.log("screenText", this.state.screenText)
-    console.log("activeModifier", this.state.activeModifier)
-    console.log("storedValue", this.state.storedValue)
+    console.log(document.getElementsByClassName("btnStyle"))
     let themeClassName = "AppContainer " + this.state.theme[this.state.activeTheme];
     return (
       <div className={themeClassName}>
