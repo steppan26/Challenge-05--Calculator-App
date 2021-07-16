@@ -68,10 +68,6 @@
 --clr-text-white : white;
 }
 
-#root{
-  background-color: var(--clr-bg-main);
-}
-
 .AppContainer{
   display: flex;
   justify-content: center;

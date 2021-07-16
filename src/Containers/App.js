@@ -19,24 +19,27 @@ import Calculator from './Calculator';
 
    componentDidMount(){
     this.createThemeToggler()
+    console.log("ThemeToggler has been created")
     this.setHeadingFontColor()
+    console.log("HeadingFontColor has been set")
     this.createButtons()
+    console.log("btns have been created")
    }
 
    createButtons = () =>{
     const buttonsArray = Array.from(document.getElementsByClassName("btn"))
 
-    //add an onClick event listener
+    // add onClick eventlistener to all buttons
     buttonsArray.forEach((btn)=>{
       btn.addEventListener("click", (event) =>{
         this.getKeyCode(event.target.textContent, buttonsArray)
       },
       false
-      ) //add onClick eventlistener to all buttons
+      )
     })
     // add keypress event listeners for keynum use
     document.addEventListener("keydown", (event) =>{this.getKeyCode(parseInt(event.keyCode), buttonsArray)}) //add event listener to all buttons, then call getKeyCode function on keypress with the key code being converted to Int before being passed through
-   }
+  }
 
   createThemeToggler = () =>{
     const themeToggle = document.getElementById("themeSelector")
@@ -78,6 +81,7 @@ import Calculator from './Calculator';
         })
         break
       case "1":
+        //fallsthrough
       case 49:
         //fallsthrough
       case 97:
