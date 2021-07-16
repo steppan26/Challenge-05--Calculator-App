@@ -90,8 +90,15 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  border-radius: 0.35em;
+  border-radius: 0.20em;
   background-color: var(--clr-keys-primary-bg);
-  font-size: 1.8em;
+  font-size: 2em;
   cursor: pointer;
 }
+
+@media only screen and (min-width: 700px){
+  .btn{
+      border-radius: 0.4em;
+
+  }
+};

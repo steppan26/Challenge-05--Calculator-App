@@ -1,8 +1,8 @@
 .buttonsContainer{
     display: grid;
-    grid-template-columns: repeat(4, 50px);
-    grid-template-rows: repeat(5, 60px);
-    grid-gap: 1.5em;
+    grid-template-columns: repeat(4, 70px);
+    grid-template-rows: repeat(5, 70px);
+    grid-gap: 1em;
     padding: 1.5em;
     border-radius: 0.5em;
     background-color: var(--clr-bg-toggle-keypad);
@@ -17,5 +17,6 @@
 @media only screen and (min-width: 700px){
     .buttonsContainer{
         grid-template-columns: repeat(4, 100px);
+        grid-gap: 1.55em;
     }
 };
