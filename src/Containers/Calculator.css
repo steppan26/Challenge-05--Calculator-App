@@ -1,8 +1,8 @@
 .buttonsContainer{
     display: grid;
-    grid-template-columns: repeat(4, 65px);
-    grid-template-rows: repeat(5, 65px);
-    grid-gap: 0.85em;
+    grid-template-columns: repeat(4, 50px);
+    grid-template-rows: repeat(5, 60px);
+    grid-gap: 1.5em;
     padding: 1.5em;
     border-radius: 0.5em;
     background-color: var(--clr-bg-toggle-keypad);

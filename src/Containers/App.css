@@ -90,7 +90,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  border-radius: 0.25em;
+  border-radius: 0.35em;
   background-color: var(--clr-keys-primary-bg);
   font-size: 1.8em;
   cursor: pointer;
