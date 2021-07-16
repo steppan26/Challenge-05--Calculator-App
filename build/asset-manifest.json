@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/Challenge-05--Calculator-App/static/css/main.bc0cc9d5.chunk.css",
-    "main.js": "/Challenge-05--Calculator-App/static/js/main.39185ce8.chunk.js",
-    "main.js.map": "/Challenge-05--Calculator-App/static/js/main.39185ce8.chunk.js.map",
+    "main.css": "/Challenge-05--Calculator-App/static/css/main.8668892b.chunk.css",
+    "main.js": "/Challenge-05--Calculator-App/static/js/main.ac972d44.chunk.js",
+    "main.js.map": "/Challenge-05--Calculator-App/static/js/main.ac972d44.chunk.js.map",
     "runtime-main.js": "/Challenge-05--Calculator-App/static/js/runtime-main.4ae3015e.js",
     "runtime-main.js.map": "/Challenge-05--Calculator-App/static/js/runtime-main.4ae3015e.js.map",
     "static/js/2.9e2cb916.chunk.js": "/Challenge-05--Calculator-App/static/js/2.9e2cb916.chunk.js",
     "static/js/2.9e2cb916.chunk.js.map": "/Challenge-05--Calculator-App/static/js/2.9e2cb916.chunk.js.map",
     "index.html": "/Challenge-05--Calculator-App/index.html",
-    "static/css/main.bc0cc9d5.chunk.css.map": "/Challenge-05--Calculator-App/static/css/main.bc0cc9d5.chunk.css.map",
+    "static/css/main.8668892b.chunk.css.map": "/Challenge-05--Calculator-App/static/css/main.8668892b.chunk.css.map",
     "static/js/2.9e2cb916.chunk.js.LICENSE.txt": "/Challenge-05--Calculator-App/static/js/2.9e2cb916.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.4ae3015e.js",
     "static/js/2.9e2cb916.chunk.js",
-    "static/css/main.bc0cc9d5.chunk.css",
-    "static/js/main.39185ce8.chunk.js"
+    "static/css/main.8668892b.chunk.css",
+    "static/js/main.ac972d44.chunk.js"
   ]
 }
