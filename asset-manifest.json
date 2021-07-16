@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/Challenge-05--Calculator-App/static/css/main.5d10170b.chunk.css",
-    "main.js": "/Challenge-05--Calculator-App/static/js/main.1cc49944.chunk.js",
-    "main.js.map": "/Challenge-05--Calculator-App/static/js/main.1cc49944.chunk.js.map",
-    "runtime-main.js": "/Challenge-05--Calculator-App/static/js/runtime-main.52e94a98.js",
-    "runtime-main.js.map": "/Challenge-05--Calculator-App/static/js/runtime-main.52e94a98.js.map",
-    "static/js/2.5f517ca2.chunk.js": "/Challenge-05--Calculator-App/static/js/2.5f517ca2.chunk.js",
-    "static/js/2.5f517ca2.chunk.js.map": "/Challenge-05--Calculator-App/static/js/2.5f517ca2.chunk.js.map",
+    "main.css": "/Challenge-05--Calculator-App/static/css/main.ae79f15d.chunk.css",
+    "main.js": "/Challenge-05--Calculator-App/static/js/main.e812a0a8.chunk.js",
+    "main.js.map": "/Challenge-05--Calculator-App/static/js/main.e812a0a8.chunk.js.map",
+    "runtime-main.js": "/Challenge-05--Calculator-App/static/js/runtime-main.4ae3015e.js",
+    "runtime-main.js.map": "/Challenge-05--Calculator-App/static/js/runtime-main.4ae3015e.js.map",
+    "static/js/2.9e2cb916.chunk.js": "/Challenge-05--Calculator-App/static/js/2.9e2cb916.chunk.js",
+    "static/js/2.9e2cb916.chunk.js.map": "/Challenge-05--Calculator-App/static/js/2.9e2cb916.chunk.js.map",
     "index.html": "/Challenge-05--Calculator-App/index.html",
-    "static/css/main.5d10170b.chunk.css.map": "/Challenge-05--Calculator-App/static/css/main.5d10170b.chunk.css.map",
-    "static/js/2.5f517ca2.chunk.js.LICENSE.txt": "/Challenge-05--Calculator-App/static/js/2.5f517ca2.chunk.js.LICENSE.txt"
+    "static/css/main.ae79f15d.chunk.css.map": "/Challenge-05--Calculator-App/static/css/main.ae79f15d.chunk.css.map",
+    "static/js/2.9e2cb916.chunk.js.LICENSE.txt": "/Challenge-05--Calculator-App/static/js/2.9e2cb916.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.52e94a98.js",
-    "static/js/2.5f517ca2.chunk.js",
-    "static/css/main.5d10170b.chunk.css",
-    "static/js/main.1cc49944.chunk.js"
+    "static/js/runtime-main.4ae3015e.js",
+    "static/js/2.9e2cb916.chunk.js",
+    "static/css/main.ae79f15d.chunk.css",
+    "static/js/main.e812a0a8.chunk.js"
   ]
 }
