@@ -67,7 +67,6 @@ import Calculator from './Calculator';
   getKeyCode = (key, buttonsArray) =>{
     switch(key){
       default:
-        console.log(key, "was pressed")
         break
       case "0":
         //fallsthrough
@@ -296,7 +295,6 @@ import Calculator from './Calculator';
     let newValue = storedValue
     switch(this.state.activeModifier){
       default:
-        console.log("a number was clicked")
         break
       case "+":
         newValue = storedValue + screenText
