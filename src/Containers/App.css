@@ -1,5 +1,5 @@
 .Theme1{
-  /*#### Backgrounds #### */
+/*#### Backgrounds #### */
 --clr-bg-main : hsl(222, 26%, 31%);
 --clr-bg-toggle-keypad : hsl(223, 31%, 20%);
 --clr-bg-screen : hsl(224, 36%, 15%);
@@ -22,7 +22,7 @@
 }
 
 .Theme2{
-    /*#### Backgrounds #### */
+/*#### Backgrounds #### */
 --clr-bg-main : hsl(0, 0%, 90%);
 --clr-bg-toggle-keypad : hsl(0, 5%, 81%);
 --clr-bg-screen : hsl(0, 0%, 93%);
@@ -96,9 +96,28 @@
   cursor: pointer;
 }
 
+.buttonsContainer{
+  display: grid;
+  grid-template-columns: repeat(4, 70px);
+  grid-template-rows: repeat(5, 70px);
+  grid-gap: 1em;
+  padding: 1.5em;
+  border-radius: 0.5em;
+  background-color: var(--clr-bg-toggle-keypad);
+  grid-template-areas:
+  "seven eight nine del"
+  "four five six plus"
+  "one two three minus"
+  "dot zero divide multiply"
+  "reset reset equals equals";
+}
+
 @media only screen and (min-width: 700px){
   .btn{
       border-radius: 0.4em;
-
+  }
+  .buttonsContainer{
+    grid-template-columns: repeat(4, 100px);
+    grid-gap: 1.55em;
   }
 }

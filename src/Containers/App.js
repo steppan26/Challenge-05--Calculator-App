@@ -314,7 +314,6 @@ import Calculator from './Calculator';
   }
 
   render(){
-    console.log(document.getElementsByClassName("btn"))
     let themeClassName = "AppContainer " + this.state.theme[this.state.activeTheme];
     return (
       <div className={themeClassName}>
