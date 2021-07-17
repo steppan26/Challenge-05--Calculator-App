@@ -96,6 +96,16 @@
   cursor: pointer;
 }
 
+@keyframes btnPress{
+  from {transform: translateY(0px);}
+  to {transform: translateY(0.2em); box-shadow: none;}
+}
+
+.btn:active{
+  animation-name: btnPress;
+  animation-duration: 0.05s;
+}
+
 .buttonsContainer{
   display: grid;
   grid-template-columns: repeat(4, 70px);
