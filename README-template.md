@@ -31,9 +31,10 @@ Users should be able to:
 ### Screenshot
 
 ![](./screenshots/theme1_desktop.png)
-![](./screenshots/theme1_mobile.png)
-![](./screenshots/theme2_mobile.png)
-![](./screenshots/theme3_mobile.png)
+
+<img src="./screenshots/theme1_mobile.png" alt="theme1 mobile view" width="30%"><img src="./screenshots/theme2_mobile.png" alt="theme2 mobile view" width="30%">
+<img src="./screenshots/theme3_mobile.png" alt="theme3 mobile view" width="30%">
+
 
 
 ### Links
